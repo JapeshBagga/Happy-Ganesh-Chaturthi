@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ganesh Chaturthi</title>
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin:0%;
+			padding:0%;
+		}
+		h2{
+			text-align:center;
+			word-spacing:10px;
+			font-size:3em;
+			font-weight:610;
+			font-family: 'Cinzel', serif;
+			animation:ganpatig 0.5s infinite;
+		}
+		h2 span{
+			font-family:my;
+		}
+		body{
+			background: url(back2.png );
+			background-size: 100% 100%;
+			height: 100vh;
+			width: 100%;
+		}
+		.one{
+			top: 46%;
+			left:47%;
+			transform:translate(-50%,-50%);
+			position: absolute;
+		}
+		.two{
+			top:85%;
+			position: absolute;
+			left:15%;
+			font-size:20px;
+		}
+		@media(max-width:640px){
+			h2{
+			text-align:center;
+			word-spacing:5px;
+			font-size:1,5em;
+			font-weight:610;
+			font-family: 'Cinzel', serif;
+			animation:ganpatig 1s infinite;
+			}
+			.one{
+			top: 46%;
+			left:47%;
+			transform:translate(-50%,-50%);
+			position: absolute;
+			}
+			img{
+				width:350px; 
+			}
+			.two{
+			top:75%;
+			position: absolute;
+			left:-58%;
+			font-size:18px;
+			}
+
+		}
+		@keyframes ganpatig{
+			0%{color:green;}
+			25%{color:pink;}
+			40%%{color:#FC8704;}
+			65%{color:#42BFEB;}
+			90%{color:red;}
+			100%%{color:lightgreen}
+		}
+		@font-face{
+			font-family:my;
+			src:url(GanpatiSymbolys.TTF);
+		}
+	</style>
+</head>
+<body>
+	<h2><span>G</span> HAPPY GANESH CHATURTHI <span>G</span></h2>
+	<div class="one">
+		<img src="g.png" width="650px">
+	</div>
+	<div class="two">
+		<pre>
+			Jay Ganesh, Jai Ganesh, Jai Ganesh Deva,
+			Maata Jaaki Parvati Pita Mahadeva...
+		</pre>
+	</div>
+
+</body>
+</html>
